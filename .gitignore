@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# SSH and credentials
+config/ssh_key*
+.kube/
+kubeconfig
+*.pem
+*.key
+
+# Node or other system-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Ansible artifacts
+*.retry
+*.tar.gz
+
+# Kubespray clone (optional)
+kubespray/
+
+# Python virtual environments
+venv/
+.env/
+.envrc
+
+# pip cache
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Backup files
+*~
+*.swp
